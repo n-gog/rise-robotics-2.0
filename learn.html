@@ -2,97 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Learn — Rise Robotics</title>
-  <meta name="description" content="What students learn through Rise Robotics: robotics foundations, electronics, sensors, and programming logic." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rise Robotics | Learn</title>
+  <meta name="theme-color" content="#f2ece3" />
+  <link rel="icon" href="images/rise-logo.png" />
   <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
 </head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-
-<header class="site-header">
-  <nav class="nav container" aria-label="Primary">
-    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>Rise Robotics</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navlinks"><span class="sr-only">Open menu</span><span aria-hidden="true">☰</span></button>
-    <div id="navlinks" class="nav-links">
-      <a class="navlink" href="index.html">Home</a>
-      <a class="navlink" href="about.html">About</a>
-      <a class="navlink" href="team.html">Team</a>
-      <a class="navlink active" href="learn.html">Learn</a>
-      <a class="navlink" href="contact.html">Contact</a>
-      <a class="btn btn-primary" href="support.html">Donate</a>
+<body data-page="learn">
+  <div id="site-header"></div>
+  <main id="main">
+    <div class="container">
+      <noscript>
+        <div class="card prose" style="margin-top:16px">
+          This site needs JavaScript enabled to load content from <code>content.json</code>.
+        </div>
+      </noscript>
+      <div id="page-learn"></div>
     </div>
-  </nav>
-</header>
-
-<main id="main" class="container">
-  <div class="pagehead">
-    <p class="breadcrumb">Home / Learn</p>
-    <h1>What Students Learn</h1>
-    <p class="lead">Structured, build-first lessons designed to create real understanding and confidence.</p>
-  </div>
-
-  <section class="section">
-    <div class="grid2">
-      <article class="card">
-        <h2>Robotics foundations</h2>
-        <p class="muted">Mechanisms, motion, stability, and design thinking through hands-on builds.</p>
-        <ul class="muted" style="margin:0; padding-left:18px">
-          <li>How movement works (gears, linkages, torque)</li>
-          <li>Iterative design: test → fix → improve</li>
-          <li>Working in teams</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <h2>Electronics & sensors</h2>
-        <p class="muted">Safe wiring, simple circuits, and sensing the environment.</p>
-        <ul class="muted" style="margin:0; padding-left:18px">
-          <li>Circuits and power basics</li>
-          <li>Sensors (distance, light, touch)</li>
-          <li>Cause-and-effect control</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <h2>Programming logic</h2>
-        <p class="muted">Foundational coding habits focused on reasoning and debugging.</p>
-        <ul class="muted" style="margin:0; padding-left:18px">
-          <li>Step-by-step thinking</li>
-          <li>Debugging like an engineer</li>
-          <li>Simple robot behaviors</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <h2>Mentorship & leadership</h2>
-        <p class="muted">A student-led model that builds confidence, communication, and leadership.</p>
-        <ul class="muted" style="margin:0; padding-left:18px">
-          <li>Peer-to-peer instruction</li>
-          <li>Presenting solutions</li>
-          <li>Helping others learn</li>
-        </ul>
-      </article>
-    </div>
-
-    <div class="banner" style="margin-top:18px">
-      <div>
-        <h2>Want to support materials?</h2>
-        <p class="muted">Donations help fund components, tools, and learning kits.</p>
-      </div>
-      <a class="btn btn-primary" href="support.html">Donate</a>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div><div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>Rise Robotics</span></div><p class="muted">Hands-on STEM learning in Kisii, Kenya.</p></div>
-    <div class="footer-links"><a href="about.html">About</a><a href="team.html">Team</a><a href="contact.html">Contact</a><a href="support.html">Donate</a></div>
-    <div class="footer-meta"><p class="muted">© <span id="year"></span> Rise Robotics</p></div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  </main>
+  <div id="site-footer"></div>
 </body>
 </html>

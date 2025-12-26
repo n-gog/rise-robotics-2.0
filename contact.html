@@ -2,105 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact — Rise Robotics</title>
-  <meta name="description" content="Contact Rise Robotics to partner, mentor, or support our robotics education work." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rise Robotics | Contact</title>
+  <meta name="theme-color" content="#f2ece3" />
+  <link rel="icon" href="images/rise-logo.png" />
   <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
 </head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-
-<header class="site-header">
-  <nav class="nav container" aria-label="Primary">
-    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>Rise Robotics</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navlinks"><span class="sr-only">Open menu</span><span aria-hidden="true">☰</span></button>
-    <div id="navlinks" class="nav-links">
-      <a class="navlink" href="index.html">Home</a>
-      <a class="navlink" href="about.html">About</a>
-      <a class="navlink" href="team.html">Team</a>
-      <a class="navlink" href="learn.html">Learn</a>
-      <a class="navlink active" href="contact.html">Contact</a>
-      <a class="btn btn-primary" href="support.html">Donate</a>
-    </div>
-  </nav>
-</header>
-
-<main id="main" class="container">
-  <div class="pagehead">
-    <p class="breadcrumb">Home / Contact</p>
-    <h1>Contact</h1>
-    <p class="lead">Reach out for partnerships, mentorship, donations, or questions.</p>
-  </div>
-
-  <section class="section">
-    <div class="grid2">
-      <div class="card">
-        <h2>Send a message</h2>
-
-        <!-- Netlify form: works after you deploy to Netlify -->
-        <form class="form" name="contact" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact" />
-
-          <div>
-            <label for="name">Name</label>
-            <input class="input" id="name" name="name" type="text" required placeholder="Your name" />
-          </div>
-
-          <div>
-            <label for="email">Email</label>
-            <input class="input" id="email" name="email" type="email" required placeholder="you@example.com" />
-          </div>
-
-          <div>
-            <label for="topic">Topic</label>
-            <select class="input" id="topic" name="topic" required>
-              <option value="" disabled selected>Select one</option>
-              <option>Partnership</option>
-              <option>Mentorship / Volunteering</option>
-              <option>Donations / Sponsorship</option>
-              <option>General question</option>
-            </select>
-          </div>
-
-          <div>
-            <label for="message">Message</label>
-            <textarea class="input" id="message" name="message" rows="6" required placeholder="How can we help?"></textarea>
-          </div>
-
-          <button class="btn btn-primary" type="submit">Send</button>
-          <small class="help">Tip: after deploying, test the form once so Netlify registers it.</small>
-        </form>
-      </div>
-
-      <div class="card">
-        <h2>Other ways</h2>
-        <p class="muted">Add your public email/socials here when ready:</p>
-        <ul class="muted" style="margin:0; padding-left:18px">
-          <li>Email: <span class="muted">(add later)</span></li>
-          <li>Instagram: <span class="muted">(add later)</span></li>
-          <li>LinkedIn: <span class="muted">(add later)</span></li>
-        </ul>
-
-        <div class="banner" style="margin-top:18px">
-          <div>
-            <h3 style="margin:0 0 8px">Prefer donating?</h3>
-            <p class="muted">Support materials and instruction directly.</p>
-          </div>
-          <a class="btn btn-secondary" href="support.html">Donate</a>
+<body data-page="contact">
+  <div id="site-header"></div>
+  <main id="main">
+    <div class="container">
+      <noscript>
+        <div class="card prose" style="margin-top:16px">
+          This site needs JavaScript enabled to load content from <code>content.json</code>.
         </div>
-      </div>
+      </noscript>
+      <div id="page-contact"></div>
     </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div><div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>Rise Robotics</span></div><p class="muted">Hands-on STEM learning in Kisii, Kenya.</p></div>
-    <div class="footer-links"><a href="about.html">About</a><a href="team.html">Team</a><a href="learn.html">Learn</a><a href="support.html">Donate</a></div>
-    <div class="footer-meta"><p class="muted">© <span id="year"></span> Rise Robotics</p></div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  </main>
+  <div id="site-footer"></div>
 </body>
 </html>

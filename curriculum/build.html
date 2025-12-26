@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RISE | Build Curriculum</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body data-page="build">
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="../index.html">
+      <img class="brand__logo" src="../assets/logo.png" alt="RISE logo" />
+      <span class="brand__name" id="brandName">RISE</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+      <div class="nav__menu" id="navMenu">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../ourteam.html">Our Team</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../stem.html">STEM</a>
+        <a class="btn btn--small" id="donateBtn" href="#" target="_blank" rel="noopener">Donate</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 id="pageTitle">Build Curriculum</h2>
+        <p id="pageSubtitle" class="muted"></p>
+      </div>
+      <div class="list" id="lessonList"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span class="muted">© <span id="year"></span> RISE</span>
+    <a class="muted" id="instagramLink" href="#" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</footer>
+
+<script src="../app.js"></script>
+</body>
+</html>

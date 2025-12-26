@@ -1,0 +1,254 @@
+{
+  "brand": {
+    "name": "Rise Robotics",
+    "slogan": "Student-led STEM access in Kisii, Kenya.",
+    "shortDescription": "A student-led nonprofit bringing build-first robotics lessons to the GRACE Academic Center in Kisii, Kenya.",
+    "logoPath": "images/rise-logo.png"
+  },
+  "nav": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "About", "href": "about.html" },
+    { "label": "Team", "href": "ourteam.html" },
+    { "label": "Learn", "href": "learn.html" },
+    { "label": "Contact Us", "href": "contact.html", "variant": "gold-outline" },
+    { "label": "Donate", "href": "support.html", "variant": "gold" }
+  ],
+  "social": [
+    { "label": "Instagram", "href": "https://www.instagram.com/", "handle": "@rise.robotics", "icon": "instagram" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/", "handle": "Rise Robotics", "icon": "linkedin" },
+    { "label": "YouTube", "href": "https://www.youtube.com/", "handle": "Rise Robotics", "icon": "youtube" }
+  ],
+  "home": {
+    "heroKicker": "STUDENT-LED  •  STEM ACCESS  •  COMMUNITY PARTNERSHIP",
+    "heroTitle": "Hands-on robotics learning for students in Kisii, Kenya.",
+    "heroIntro": "Rise Robotics expands access to STEM through build-first robotics programs in partnership with the GRACE Academic Center—helping students learn, create, and lead.",
+    "heroCtas": [
+      { "label": "Support the mission", "href": "support.html", "variant": "gold" },
+      { "label": "See what students learn", "href": "learn.html", "variant": "outline" }
+    ],
+    "pillTopics": [
+      "Robotics foundations",
+      "Electronics & sensors",
+      "Programming logic",
+      "Mentorship & leadership"
+    ],
+    "stats": [
+      { "label": "Raised", "value": 6000, "prefix": "$", "suffix": "+" },
+      { "label": "Students", "value": 90, "prefix": "", "suffix": "+" },
+      { "label": "Schools in Kenya", "value": 11, "prefix": "", "suffix": "" }
+    ],
+    "heroRightCard": {
+      "title": "Build-first learning",
+      "bullets": [
+        "Mechanisms & motion",
+        "Circuits & safe wiring",
+        "Sensors & control",
+        "Team design challenges"
+      ]
+    },
+    "carouselImages": [
+      { "src": "https://www.rise-robotics.org/images/home1.JPG", "alt": "Students learning robotics at GRACE Academic Center" },
+      { "src": "https://www.rise-robotics.org/images/home2.JPG", "alt": "Hands-on robotics lesson" },
+      { "src": "https://www.rise-robotics.org/images/home3.JPG", "alt": "VEX IQ robots built by students" },
+      { "src": "https://www.rise-robotics.org/images/home4.JPG", "alt": "Community engagement around robotics" },
+      { "src": "https://www.rise-robotics.org/images/home5.JPG", "alt": "Student volunteers mentoring learners" }
+    ],
+    "featuredIn": [
+      {
+        "title": "Millburn Students Raise $5,500",
+        "publisher": "TAPinto",
+        "href": "https://www.tapinto.net/",
+        "note": "Article covering Rise students fundraising for robotics education in Kenya.",
+        "image": ""
+      },
+      {
+        "title": "Fundraising for STEM Equipment",
+        "publisher": "TAPinto",
+        "href": "https://www.tapinto.net/",
+        "note": "Coverage about expanding robotics access for Kenyan students.",
+        "image": ""
+      },
+      {
+        "title": "TEEEM Robotics Video",
+        "publisher": "LinkedIn",
+        "href": "https://www.linkedin.com/",
+        "note": "Video feature showcasing the impact of Rise and TEEEM in Kenya.",
+        "image": ""
+      }
+    ],
+    "missionTitle": "Our mission",
+    "missionText": "Many students don’t get consistent access to hands-on STEM resources. We close that gap with practical robotics learning that turns curiosity into skills—and skills into confidence.",
+    "aboutBlurbTitle": "About Rise",
+    "aboutBlurbText": "Rise is a student-led nonprofit initiative bringing robotics education to young learners at the GRACE Academic Center in Kisii, Kenya, in collaboration with the nonprofit organization TEEEM.",
+    "partnerBanner": { "text": "Partnered with GRACE Academic Center (Kisii, Kenya).", "ctaLabel": "Support us", "ctaHref": "support.html" }
+  },
+  "about": {
+    "title": "About us",
+    "paragraphs": [
+      "Rise is a student-led nonprofit initiative bringing robotics education to young learners at the GRACE Academic Center in Kisii, Kenya, in collaboration with the nonprofit organization TEEEM. We’ve raised about $6,000 to provide VEX-IQ kits sufficient for 50 students, with 30 students currently actively participating in the program.",
+      "Our mission is to create a sustainable robotics curriculum that teaches elementary and middle schoolers fundamental building and coding concepts, empowering them with skills for the future. Over the summer, our team of student volunteers conducted regular Zoom training sessions with GRACE teachers, developed an eight-week curriculum with instructional videos, and built a custom website to support long-term learning.",
+      "The GRACE Academic Center is a co-ed day school serving around 120 students, known for its commitment to high-quality education and support for disadvantaged children."
+    ],
+    "supportCta": { "label": "Support Rise", "href": "support.html", "variant": "gold" },
+    "images": [
+      { "src": "https://www.rise-robotics.org/images/GI-LOGO.webp", "alt": "GRACE Initiative logo" },
+      { "src": "https://www.rise-robotics.org/images/teeem.webp", "alt": "TEEEM logo" }
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "sections": [
+      {
+        "name": "Leadership",
+        "people": [
+          { "name": "Rusheel Mishra", "role": "Founder and President", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/rusheel.jpeg" },
+          { "name": "Arin Kulkarni", "role": "Co-Founder and Vice President", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/arin.jpeg" },
+          { "name": "Calvin Coakley", "role": "Head of Livingston Chapter", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/calvin.jpeg" },
+          { "name": "Joey Deng", "role": "Co-Founder and Vice President", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/joey.jpeg" },
+          { "name": "Kyle Chase", "role": "Chief Marketing Officer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/kyle.jpeg" },
+          { "name": "Ayden Dai", "role": "Build Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/ayden.jpeg" },
+          { "name": "Karson Jiang", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/karson.jpeg" }
+        ]
+      },
+      {
+        "name": "WebDev / Code Curriculum",
+        "people": [
+          { "name": "Alan Muttappillil", "role": "Technical Lead", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/alan.jpeg" },
+          { "name": "Naman Mehta", "role": "Web Developer and Code Curriculum", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/naman.jpeg" },
+          { "name": "Neil Gogineni", "role": "Web Developer and Code/Build Curriculum", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/neil.jpeg" },
+          { "name": "Carissa Gulati", "role": "Code Curriculum", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/carissa.jpeg" },
+          { "name": "Guneet Kaur Kapur", "role": "Code Curriculum", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/guneet.jpeg" },
+          { "name": "James Hou", "role": "Code Curriculum Designer", "school": "Newark Academy", "image": "https://www.rise-robotics.org/images/team-images/james.jpeg" },
+          { "name": "Leo Hwang", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/leo.jpeg" },
+          { "name": "Rishi Saraf", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/rishi.jpeg" },
+          { "name": "Diya Jain", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/diya.jpeg" },
+          { "name": "Krisha Shankarnarayan", "role": "Code Curriculum Designer", "school": "Kent Place School", "image": "https://www.rise-robotics.org/images/team-images/krisha.jpeg" },
+          { "name": "Tessa Chow", "role": "Code Curriculum Designer", "school": "Kent Place School", "image": "https://www.rise-robotics.org/images/team-images/tessa.jpeg" }
+        ]
+      },
+      {
+        "name": "Build Team",
+        "people": [
+          { "name": "Grace Yu", "role": "Build Instructor", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/grace.jpeg" },
+          { "name": "Lucas Goldman", "role": "Build Instructor", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/lucas.jpeg" },
+          { "name": "Yash Juneja", "role": "Build Curriculum Designer", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/yash.jpeg" },
+          { "name": "Kimaya Sutone", "role": "Curriculum", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/kimaya.jpeg" },
+          { "name": "Abhimaan Chandan", "role": "Curriculum", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/abhimaan.jpeg" }
+        ]
+      },
+      {
+        "name": "Fundraising & Outreach",
+        "people": [
+          { "name": "Derek Zhang", "role": "Fundraising", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/derek.jpeg" },
+          { "name": "Atharv Karamcheti", "role": "Fundraising", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/atharv.jpeg" },
+          { "name": "Sujeev Singh Kapur", "role": "Outreach", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/sujeev.jpeg" }
+        ]
+      }
+    ]
+  },
+  "learn": {
+    "title": "Learn",
+    "subtitle": "Choose a track, then pick a lesson from the sidebar. Everything is editable in content.json.",
+    "tracks": [
+      {
+        "key": "build",
+        "label": "Build lessons",
+        "description": "Hands-on construction concepts using VEX IQ—parts, mechanisms, and iterative building.",
+        "lessons": [
+          { "id": "build-0", "title": "Curriculum Overview", "duration": "Overview", "contentHtml": "<h2>Curriculum Overview</h2><p><strong>Overview</strong> — A quick roadmap of the full build curriculum and what students will create along the way.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-1", "title": "What is Robotics?", "duration": "Lesson 1", "contentHtml": "<h2>What is Robotics?</h2><p><strong>Lesson 1</strong> — Students are introduced to robotics and engineering, and why robots are useful in the real world.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-2", "title": "VEX IQ Kit Introduction", "duration": "Lesson 2", "contentHtml": "<h2>VEX IQ Kit Introduction</h2><p><strong>Lesson 2</strong> — Learn the parts in the kit and how to categorize and organize them for fast building.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-3", "title": "Basic Geometric Thinking and Reasoning", "duration": "Lesson 3", "contentHtml": "<h2>Basic Geometric Thinking and Reasoning</h2><p><strong>Lesson 3</strong> — Think in shapes and structures—use beams, pins, and spacing to build to a goal.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-4", "title": "Introducing the Engineering and Design Process", "duration": "Lesson 4", "contentHtml": "<h2>Introducing the Engineering and Design Process</h2><p><strong>Lesson 4</strong> — The Engineering Design Process (EDP): define, brainstorm, build, test, improve.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-5", "title": "Applying the EDP", "duration": "Lesson 5", "contentHtml": "<h2>Applying the EDP</h2><p><strong>Lesson 5</strong> — Run through a complete EDP cycle using a short VEX activity.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-6", "title": "Getting Started: Robot Soccer", "duration": "Lesson 6", "contentHtml": "<h2>Getting Started: Robot Soccer</h2><p><strong>Lesson 6</strong> — Kick off the first major design challenge: build a robot to play soccer/football.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-7", "title": "The Importance of Documentation", "duration": "Lesson 7", "contentHtml": "<h2>The Importance of Documentation</h2><p><strong>Lesson 7</strong> — Engineering documentation—recording decisions, tests, and results so you can improve faster.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-8", "title": "Making Data-Driven Decisions", "duration": "Lesson 8", "contentHtml": "<h2>Making Data-Driven Decisions</h2><p><strong>Lesson 8</strong> — Use data tables and test results to choose the best design direction.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-9", "title": "Building and Documenting Conjoined", "duration": "Lesson 9", "contentHtml": "<h2>Building and Documenting Conjoined</h2><p><strong>Lesson 9</strong> — Apply building + documentation skills in a culminating task that sets up independent design work.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-10", "title": "Manipulators and Intakes", "duration": "Lesson 10", "contentHtml": "<h2>Manipulators and Intakes</h2><p><strong>Lesson 10</strong> — What’s a manipulator vs an intake—and how each helps solve a game task.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-11", "title": "Developing Designs", "duration": "Lesson 11", "contentHtml": "<h2>Developing Designs</h2><p><strong>Lesson 11</strong> — First independent design project: create a manipulator for the Robot Soccer robot.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-12", "title": "Work Day", "duration": "Lesson 12", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 12</strong> — Continue iterating on manipulator designs using the EDP and test notes.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-13", "title": "The Importance of Field Testing", "duration": "Lesson 13", "contentHtml": "<h2>The Importance of Field Testing</h2><p><strong>Lesson 13</strong> — Learn structured field testing to evaluate real performance, not just “looks good.”</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-14", "title": "Work Day", "duration": "Lesson 14", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 14</strong> — Refine designs using field-test feedback and improvements.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-15", "title": "Work Day", "duration": "Lesson 15", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 15</strong> — Final improvements and preparation for competition.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-16", "title": "Competition Day", "duration": "Lesson 16", "contentHtml": "<h2>Competition Day</h2><p><strong>Lesson 16</strong> — Students compete in the Robot Soccer challenge and reflect on what worked.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-17", "title": "Making Real World Connections", "duration": "Lesson 17", "contentHtml": "<h2>Making Real World Connections</h2><p><strong>Lesson 17</strong> — Reflect on the unit and apply the EDP to a real-life problem or need.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-18", "title": "Work Day for Engineering Poster", "duration": "Lesson 18", "contentHtml": "<h2>Work Day for Engineering Poster</h2><p><strong>Lesson 18</strong> — Work on a poster communicating the team’s design process and reasoning.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-19", "title": "Poster Presentation + Disassembly Prep", "duration": "Lesson 19", "contentHtml": "<h2>Poster Presentation + Disassembly Prep</h2><p><strong>Lesson 19</strong> — Present the engineering poster, then prep for the next unit by disassembling/organizing parts.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-20", "title": "Starting a Bigger Challenge", "duration": "Lesson 20", "contentHtml": "<h2>Starting a Bigger Challenge</h2><p><strong>Lesson 20</strong> — Introduce the final, bigger design challenge for the course.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-21", "title": "Refining Operator Input", "duration": "Lesson 21", "contentHtml": "<h2>Refining Operator Input</h2><p><strong>Lesson 21</strong> — Driving practice + control refinement to build skill before major redesigns.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-22", "title": "Multi-Function Driving", "duration": "Lesson 22", "contentHtml": "<h2>Multi-Function Driving</h2><p><strong>Lesson 22</strong> — Control multiple robot functions at once through fun driving tasks.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-23", "title": "Tug of War", "duration": "Lesson 23", "contentHtml": "<h2>Tug of War</h2><p><strong>Lesson 23</strong> — Introduce criteria & constraints using a tug-of-war style mini challenge.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-24", "title": "Developing a Manipulator", "duration": "Lesson 24", "contentHtml": "<h2>Developing a Manipulator</h2><p><strong>Lesson 24</strong> — Begin a new manipulator design that can complete the final challenge task.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-25", "title": "Work Day", "duration": "Lesson 25", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 25</strong> — Iterate on the manipulator with testing and documentation.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-26", "title": "Work Day", "duration": "Lesson 26", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 26</strong> — Continue independent work and improvements.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-27", "title": "Work Day", "duration": "Lesson 27", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 27</strong> — Continue building + testing and record results.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-28", "title": "Reaching for the Sky", "duration": "Lesson 28", "contentHtml": "<h2>Reaching for the Sky</h2><p><strong>Lesson 28</strong> — Introduce lift arms and how to design a reliable lifting mechanism.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-29", "title": "Work Day", "duration": "Lesson 29", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 29</strong> — Build and refine arm designs (and claw, if needed) through testing.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-30", "title": "Work Day", "duration": "Lesson 30", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 30</strong> — Continue developing the arm and mechanism coordination.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-31", "title": "Work Day", "duration": "Lesson 31", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 31</strong> — Finalize designs for competition readiness.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-32", "title": "Competition Day", "duration": "Lesson 32", "contentHtml": "<h2>Competition Day</h2><p><strong>Lesson 32</strong> — Culminating competition using the final robot design.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-33", "title": "Making More Real World Connections", "duration": "Lesson 33", "contentHtml": "<h2>Making More Real World Connections</h2><p><strong>Lesson 33</strong> — Reflect on the final unit and connect concepts to everyday engineering. (Under construction on the old site.)</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-34", "title": "Work Day", "duration": "Lesson 34", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 34</strong> — Catch-up day for finishing remaining builds/posters. (Under construction on the old site.)</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "build-35", "title": "Disassembly and Looking Forward", "duration": "Lesson 35", "contentHtml": "<h2>Disassembly and Looking Forward</h2><p><strong>Lesson 35</strong> — Disassemble, sort parts, and plan what to build/learn next. (Under construction on the old site.)</p><p><em>Edit this lesson in content.json.</em></p>" }
+        ]
+      },
+      {
+        "key": "code",
+        "label": "Code lessons",
+        "description": "Programming fundamentals—logic, sensors, loops, functions, and debugging habits.",
+        "lessons": [
+          { "id": "code-0", "title": "Curriculum Overview", "duration": "Overview", "contentHtml": "<h2>Curriculum Overview</h2><p><strong>Overview</strong> — Full overview of the coding lessons and how they support robotics challenges.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-1", "title": "What is Programming?", "duration": "Lesson 1", "contentHtml": "<h2>What is Programming?</h2><p><strong>Lesson 1</strong> — Intro to programming and its role in controlling robots.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-2", "title": "VEX IQ Blocks Overview", "duration": "Lesson 2", "contentHtml": "<h2>VEX IQ Blocks Overview</h2><p><strong>Lesson 2</strong> — Movement blocks and how to download code to the brain.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-3", "title": "Importance of Pseudocode", "duration": "Lesson 3", "contentHtml": "<h2>Importance of Pseudocode</h2><p><strong>Lesson 3</strong> — Plan first: outline logic using pseudocode before writing blocks.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-4", "title": "Simple Movements", "duration": "Lesson 4", "contentHtml": "<h2>Simple Movements</h2><p><strong>Lesson 4</strong> — Drive and turn accurately using basic commands.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-5", "title": "Wait and Timing", "duration": "Lesson 5", "contentHtml": "<h2>Wait and Timing</h2><p><strong>Lesson 5</strong> — Use timing and waits to control sequences.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-6", "title": "Sensors", "duration": "Lesson 6", "contentHtml": "<h2>Sensors</h2><p><strong>Lesson 6</strong> — Distance, color, and gyro sensors—what they measure and how to read them.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-7", "title": "Conditional Statements", "duration": "Lesson 7", "contentHtml": "<h2>Conditional Statements</h2><p><strong>Lesson 7</strong> — If/else logic using sensor input.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-8", "title": "Loops", "duration": "Lesson 8", "contentHtml": "<h2>Loops</h2><p><strong>Lesson 8</strong> — Repeat actions using different kinds of loops.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-85", "title": "Nested Loops", "duration": "Lesson 8.5", "contentHtml": "<h2>Nested Loops</h2><p><strong>Lesson 8.5</strong> — Combine loops inside loops for more advanced behavior.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-9", "title": "Dance Routine Project", "duration": "Lesson 9", "contentHtml": "<h2>Dance Routine Project</h2><p><strong>Lesson 9</strong> — Create a coordinated “dance” using movement, timing, loops, and logic.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-10", "title": "Variables & Storing Info", "duration": "Lesson 10", "contentHtml": "<h2>Variables & Storing Info</h2><p><strong>Lesson 10</strong> — Numeric/boolean/list variables and why they matter.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-11", "title": "MyBlocks & Functions", "duration": "Lesson 11", "contentHtml": "<h2>MyBlocks & Functions</h2><p><strong>Lesson 11</strong> — Create reusable functions (MyBlocks) to simplify programs.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-12", "title": "Debugging", "duration": "Lesson 12", "contentHtml": "<h2>Debugging</h2><p><strong>Lesson 12</strong> — Find and fix issues using debugging strategies.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-13", "title": "Exploration Day", "duration": "Lesson 13", "contentHtml": "<h2>Exploration Day</h2><p><strong>Lesson 13</strong> — Experiment with new blocks and features in VEXcode.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-14", "title": "Follow the Tape Challenge", "duration": "Lesson 14", "contentHtml": "<h2>Follow the Tape Challenge</h2><p><strong>Lesson 14</strong> — Plan an autonomous tape-following/maze task.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-15", "title": "Work Day", "duration": "Lesson 15", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 15</strong> — Turn pseudocode into working code.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-16", "title": "Test Day", "duration": "Lesson 16", "contentHtml": "<h2>Test Day</h2><p><strong>Lesson 16</strong> — Run the autonomous maze/tape challenge and record results.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-17", "title": "Extra Challenge", "duration": "Lesson 17", "contentHtml": "<h2>Extra Challenge</h2><p><strong>Lesson 17</strong> — Use sensors to solve a randomized maze.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-18", "title": "Work Day", "duration": "Lesson 18", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 18</strong> — Develop advanced maze pseudocode and test logic.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-19", "title": "Work Day", "duration": "Lesson 19", "contentHtml": "<h2>Work Day</h2><p><strong>Lesson 19</strong> — Convert pseudocode into code and refine.</p><p><em>Edit this lesson in content.json.</em></p>" },
+          { "id": "code-20", "title": "Test Day", "duration": "Lesson 20", "contentHtml": "<h2>Test Day</h2><p><strong>Lesson 20</strong> — Final tape-following competition.</p><p><em>Edit this lesson in content.json.</em></p>" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Reach out for partnerships, mentorship, donations, or questions.",
+    "otherWays": [
+      { "label": "Phone", "value": "(add later)" },
+      { "label": "Email", "value": "(add later)" },
+      { "label": "Instagram", "value": "@rise.robotics" }
+    ],
+    "donateCta": { "label": "Donate", "href": "support.html", "variant": "gold" }
+  },
+  "support": {
+    "title": "Support Rise",
+    "subtitle": "Your support funds robotics kits, learning materials, and consistent instruction at GRACE Academic Center.",
+    "whereSupportGoes": [
+      "VEX IQ kits and replacement parts",
+      "Tools and safe build materials",
+      "Electronics and sensors",
+      "Printed resources and classroom supplies"
+    ],
+    "donationLinks": [
+      { "label": "Donate (add link)", "href": "#", "variant": "gold" },
+      { "label": "GoFundMe (add link)", "href": "#", "variant": "outline" },
+      { "label": "PayPal (add link)", "href": "#", "variant": "outline" }
+    ],
+    "partnerCta": { "label": "Contact us for larger donations / partnerships", "href": "contact.html", "variant": "outline" },
+    "transparency": { "title": "Transparency", "text": "We aim to be clear about what support funds and how it helps students learn.", "ctaLabel": "See what students learn", "ctaHref": "learn.html" }
+  }
+}

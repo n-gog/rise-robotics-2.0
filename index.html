@@ -2,176 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Rise Robotics — Student-Led Robotics Education</title>
-  <meta name="description" content="Rise Robotics is a student-led initiative expanding access to hands-on STEM and robotics education in Kisii, Kenya, in partnership with the GRACE Academic Center." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rise Robotics | Home</title>
+  <meta name="theme-color" content="#f2ece3" />
+  <link rel="icon" href="images/rise-logo.png" />
   <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
 </head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-
-<header class="site-header">
-  <nav class="nav container" aria-label="Primary">
-    <a class="brand" href="index.html">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>Rise Robotics</span>
-    </a>
-
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navlinks">
-      <span class="sr-only">Open menu</span>
-      <span aria-hidden="true">☰</span>
-    </button>
-
-    <div id="navlinks" class="nav-links">
-      <a class="navlink active" href="index.html">Home</a>
-      <a class="navlink" href="about.html">About</a>
-      <a class="navlink" href="team.html">Team</a>
-      <a class="navlink" href="learn.html">Learn</a>
-      <a class="navlink" href="contact.html">Contact</a>
-      <a class="btn btn-primary" href="support.html">Donate</a>
-    </div>
-  </nav>
-</header>
-
-<main id="main">
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <p class="eyebrow">Student-led • STEM access • Community partnership</p>
-        <h1>Hands-on robotics learning for students in Kisii, Kenya.</h1>
-        <p class="lead">
-          Rise Robotics expands access to STEM through build-first robotics programs in partnership with the
-          <strong>GRACE Academic Center</strong>—helping students learn, create, and lead.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="support.html">Support the mission</a>
-          <a class="btn btn-secondary" href="learn.html">See what students learn</a>
-        </div>
-
-        <div class="pills" aria-label="Key focus areas">
-          <div class="pill"><span class="dot"></span> Robotics foundations</div>
-          <div class="pill"><span class="dot"></span> Electronics & sensors</div>
-          <div class="pill"><span class="dot"></span> Programming logic</div>
-          <div class="pill"><span class="dot"></span> Mentorship & leadership</div>
-        </div>
-      </div>
-
-      <div class="hero-panel" role="img" aria-label="Abstract robotics graphic">
-        <div class="hero-orb"></div>
-        <div class="hero-gridlines"></div>
-        <div class="mini">
-          <p class="mini-title">Build-first learning</p>
-          <ul>
-            <li>Mechanisms & motion</li>
-            <li>Circuits & safe wiring</li>
-            <li>Sensors & control</li>
-            <li>Team design challenges</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
+<body data-page="home">
+  <div id="site-header"></div>
+  <main id="main">
     <div class="container">
-      <div style="max-width:760px">
-        <h2>Our mission</h2>
-        <p class="lead">
-          Many students don’t get consistent access to hands-on STEM resources. We close that gap with practical
-          robotics learning that turns curiosity into skills—and skills into confidence.
-        </p>
-      </div>
-
-      <div class="grid3" style="margin-top:18px">
-        <article class="card">
-          <h3>Access</h3>
-          <p class="muted">We bring robotics learning to students who may not otherwise have the tools or support.</p>
-        </article>
-        <article class="card">
-          <h3>Hands-on skills</h3>
-          <p class="muted">Students learn by building: mechanical design, electronics basics, sensors, and logic.</p>
-        </article>
-        <article class="card">
-          <h3>Leadership</h3>
-          <p class="muted">Student mentorship builds teamwork, confidence, and peer-to-peer learning.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt">
-    <div class="container">
-      <div class="grid2" style="align-items:start">
-        <div>
-          <h2>What we do</h2>
-          <p class="muted">
-            We run structured robotics learning sessions designed to be engaging, measurable, and sustainable.
-          </p>
-          <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:14px">
-            <a class="btn btn-secondary" href="learn.html">Explore the Learn page</a>
-            <a class="btn btn-ghost" href="about.html">How it started</a>
-          </div>
+      <noscript>
+        <div class="card prose" style="margin-top:16px">
+          This site needs JavaScript enabled to load content from <code>content.json</code>.
         </div>
-
-        <div class="stack">
-          <div class="card">
-            <h3>Robotics foundations</h3>
-            <p class="muted">Mechanisms, motion, and design thinking through build challenges.</p>
-          </div>
-          <div class="card">
-            <h3>Electronics & sensors</h3>
-            <p class="muted">Circuits, safe wiring, and sensor-driven behaviors.</p>
-          </div>
-          <div class="card">
-            <h3>Programming logic</h3>
-            <p class="muted">Step-by-step reasoning, debugging habits, and simple control.</p>
-          </div>
-        </div>
-      </div>
+      </noscript>
+      <div id="page-home"></div>
     </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="banner">
-        <div>
-          <h2>Partnered with the GRACE Academic Center</h2>
-          <p class="muted">
-            Our work is grounded in community partnership in Kisii, Kenya—aligned with students’ goals and schedules.
-          </p>
-        </div>
-        <a class="btn btn-primary" href="support.html">Help fund materials</a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <div class="brand" style="gap:10px">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Rise Robotics</span>
-      </div>
-      <p class="muted">Student-led robotics education initiative supporting hands-on STEM learning in Kisii, Kenya.</p>
-    </div>
-
-    <div class="footer-links">
-      <a href="about.html">About</a>
-      <a href="team.html">Team</a>
-      <a href="learn.html">Learn</a>
-      <a href="contact.html">Contact</a>
-      <a href="support.html">Donate</a>
-    </div>
-
-    <div class="footer-meta">
-      <p class="muted">© <span id="year"></span> Rise Robotics</p>
-      <p class="muted">Built to work on mobile + desktop.</p>
-    </div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  </main>
+  <div id="site-footer"></div>
 </body>
 </html>
