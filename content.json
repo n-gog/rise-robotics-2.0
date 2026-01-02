@@ -15,8 +15,7 @@
   ],
   "social": [
     { "label": "Instagram", "href": "https://www.instagram.com/rise.robotics/", "handle": "@rise.robotics", "icon": "instagram" },
-    { "label": "LinkedIn", "href": "https://www.linkedin.com/", "handle": "Rise Robotics", "icon": "linkedin" },
-    { "label": "YouTube", "href": "https://www.youtube.com/", "handle": "Rise Robotics", "icon": "youtube" }
+    { "label": "YouTube", "href": "https://www.youtube.com/channel/UCwPTQLYD3LR9unq53qp3jlA", "handle": "Rise Robotics", "icon": "youtube" }
   ],
   "home": {
     "heroKicker": "STUDENT-LED  •  STEM ACCESS  •  COMMUNITY PARTNERSHIP",
@@ -47,31 +46,31 @@
       ]
     },
     "carouselImages": [
-      { "src": "https://www.rise-robotics.org/images/home1.JPG", "alt": "Students learning robotics at GRACE Academic Center" },
-      { "src": "https://www.rise-robotics.org/images/home2.JPG", "alt": "Hands-on robotics lesson" },
-      { "src": "https://www.rise-robotics.org/images/home3.JPG", "alt": "VEX IQ robots built by students" },
-      { "src": "https://www.rise-robotics.org/images/home4.JPG", "alt": "Community engagement around robotics" },
-      { "src": "https://www.rise-robotics.org/images/home5.JPG", "alt": "Student volunteers mentoring learners" }
+      { "src": "images/home1.JPG", "alt": "Students learning robotics at GRACE Academic Center" },
+      { "src": "images/home2.JPG", "alt": "Hands-on robotics lesson" },
+      { "src": "images/home3.JPG", "alt": "VEX IQ robots built by students" },
+      { "src": "images/home4.JPG", "alt": "Community engagement around robotics" },
+      { "src": "images/home5.JPG", "alt": "Student volunteers mentoring learners" }
     ],
     "featuredIn": [
       {
         "title": "Millburn Students Raise $5,500",
         "publisher": "TAPinto",
-        "href": "https://www.tapinto.net/",
+        "href": "https://www.tapinto.net/towns/millburn-slash-short-hills/sections/giving-back/articles/millburn-high-school-students-raise-over-5-500-purchase-robotics-kits-for-40-kenyan-students-train-teachers",
         "note": "Article covering Rise students fundraising for robotics education in Kenya.",
         "image": ""
       },
       {
         "title": "Fundraising for STEM Equipment",
         "publisher": "TAPinto",
-        "href": "https://www.tapinto.net/",
+        "href": "https://www.tapinto.net/towns/millburn-slash-short-hills/sections/giving-back/articles/3-millburn-high-school-students-are-fundraising-to-provide-stem-equipment-for-students-in-kenya",
         "note": "Coverage about expanding robotics access for Kenyan students.",
         "image": ""
       },
       {
         "title": "TEEEM Robotics Video",
         "publisher": "LinkedIn",
-        "href": "https://www.linkedin.com/",
+        "href": "https://www.linkedin.com/posts/teeemglobal_robotics-stem-education-activity-7374170711533178881-Oo12/",
         "note": "Video feature showcasing the impact of Rise and TEEEM in Kenya.",
         "image": ""
       }
@@ -244,9 +243,8 @@
       "Printed resources and classroom supplies"
     ],
     "donationLinks": [
-      { "label": "Donate (add link)", "href": "#", "variant": "gold" },
-      { "label": "GoFundMe (add link)", "href": "#", "variant": "outline" },
-      { "label": "PayPal (add link)", "href": "#", "variant": "outline" }
+      { "label": "Donate (add link)", "href": "https://secure.givelively.org/donate/teeem-foundation/teeem-rise", "variant": "gold" }
+
     ],
     "partnerCta": { "label": "Contact us for larger donations / partnerships", "href": "contact.html", "variant": "outline" },
     "transparency": { "title": "Transparency", "text": "We aim to be clear about what support funds and how it helps students learn.", "ctaLabel": "See what students learn", "ctaHref": "learn.html" }

@@ -1,5 +1,23 @@
-/about    /about.html    200
-/team     /ourteam.html     200
-/learn    /learn.html    200
-/contact  /contact.html  200
-/support   /support.html  200
+# Pretty URLs (keep the clean path in the browser, serve the underlying HTML)
+/about        /about.html      200
+/about/       /about.html      200
+
+/team         /ourteam.html    200
+/team/        /ourteam.html    200
+/ourteam      /ourteam.html    200
+/ourteam/     /ourteam.html    200
+
+/learn        /learn.html      200
+/learn/       /learn.html      200
+
+/contact      /contact.html    200
+/contact/     /contact.html    200
+
+/support      /support.html    200
+/support/     /support.html    200
+/donate       /support.html    200
+/donate/      /support.html    200
+
+# Optional: allow /index to load home
+/index        /index.html      200
+/index/       /index.html      200

@@ -774,7 +774,7 @@ function initSupport(site) {
 
         <div class="panel">
           <h3 style="margin:0 0 10px">Donate</h3>
-          <p style="margin:0; color:var(--muted); line-height:1.8">Add real links in <code>content.json</code> → <code>support.donationLinks</code></p>
+          <p style="margin:0; color:var(--muted); line-height:1.8">Please help us continue our mission by donating to Rise Robotics.</p>
           <div class="actions" style="margin-top:14px">
             ${(s.donationLinks || [])
               .map(
