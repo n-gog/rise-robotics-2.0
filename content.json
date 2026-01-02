@@ -14,7 +14,7 @@
     { "label": "Donate", "href": "support.html", "variant": "gold" }
   ],
   "social": [
-    { "label": "Instagram", "href": "https://www.instagram.com/", "handle": "@rise.robotics", "icon": "instagram" },
+    { "label": "Instagram", "href": "https://www.instagram.com/rise.robotics/", "handle": "@rise.robotics", "icon": "instagram" },
     { "label": "LinkedIn", "href": "https://www.linkedin.com/", "handle": "Rise Robotics", "icon": "linkedin" },
     { "label": "YouTube", "href": "https://www.youtube.com/", "handle": "Rise Robotics", "icon": "youtube" }
   ],
@@ -91,8 +91,8 @@
     ],
     "supportCta": { "label": "Support Rise", "href": "support.html", "variant": "gold" },
     "images": [
-      { "src": "https://www.rise-robotics.org/images/GI-LOGO.webp", "alt": "GRACE Initiative logo" },
-      { "src": "https://www.rise-robotics.org/images/teeem.webp", "alt": "TEEEM logo" }
+      { "src": "images/gracelogo.webp", "alt": "GRACE Initiative logo" },
+      { "src": "images/teeem.webp", "alt": "TEEEM logo" }
     ]
   },
   "team": {
@@ -101,47 +101,47 @@
       {
         "name": "Leadership",
         "people": [
-          { "name": "Rusheel Mishra", "role": "Founder and President", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/rusheel.jpeg" },
-          { "name": "Arin Kulkarni", "role": "Co-Founder and Vice President", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/arin.jpeg" },
-          { "name": "Calvin Coakley", "role": "Head of Livingston Chapter", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/calvin.jpeg" },
-          { "name": "Joey Deng", "role": "Co-Founder and Vice President", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/joey.jpeg" },
-          { "name": "Kyle Chase", "role": "Chief Marketing Officer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/kyle.jpeg" },
-          { "name": "Ayden Dai", "role": "Build Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/ayden.jpeg" },
-          { "name": "Karson Jiang", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/karson.jpeg" }
+          { "name": "Rusheel Mishra", "role": "Founder and President", "school": "Millburn High School", "image": "images/teamimages/rusheel.jpeg" },
+          { "name": "Arin Kulkarni", "role": "Co-Founder and Vice President", "school": "Millburn High School", "image": "images/teamimages/arin.jpeg" },
+          { "name": "Calvin Coakley", "role": "Head of Livingston Chapter", "school": "Livingston High School", "image": "images/teamimages/calvin.jpeg" },
+          { "name": "Joey Deng", "role": "Co-Founder and Vice President", "school": "Millburn High School", "image": "images/teamimages/joey.jpeg" },
+          { "name": "Kyle Chase", "role": "Chief Marketing Officer", "school": "Millburn High School", "image": "images/teamimages/kyle.jpeg" },
+          { "name": "Ayden Dai", "role": "Build Curriculum Designer", "school": "Millburn High School", "image": "images/teamimages/ayden.jpeg" },
+          { "name": "Karson Jiang", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "images/teamimages/karson.jpeg" }
         ]
       },
       {
         "name": "WebDev / Code Curriculum",
         "people": [
-          { "name": "Alan Muttappillil", "role": "Technical Lead", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/alan.jpeg" },
-          { "name": "Naman Mehta", "role": "Web Developer and Code Curriculum", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/naman.jpeg" },
-          { "name": "Neil Gogineni", "role": "Web Developer and Code/Build Curriculum", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/neil.jpeg" },
-          { "name": "Carissa Gulati", "role": "Code Curriculum", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/carissa.jpeg" },
-          { "name": "Guneet Kaur Kapur", "role": "Code Curriculum", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/guneet.jpeg" },
-          { "name": "James Hou", "role": "Code Curriculum Designer", "school": "Newark Academy", "image": "https://www.rise-robotics.org/images/team-images/james.jpeg" },
-          { "name": "Leo Hwang", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/leo.jpeg" },
-          { "name": "Rishi Saraf", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/rishi.jpeg" },
-          { "name": "Diya Jain", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/diya.jpeg" },
-          { "name": "Krisha Shankarnarayan", "role": "Code Curriculum Designer", "school": "Kent Place School", "image": "https://www.rise-robotics.org/images/team-images/krisha.jpeg" },
-          { "name": "Tessa Chow", "role": "Code Curriculum Designer", "school": "Kent Place School", "image": "https://www.rise-robotics.org/images/team-images/tessa.jpeg" }
+          { "name": "Alan Muttappillil", "role": "Technical Lead", "school": "Livingston High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Neil Gogineni", "role": "Web Developer and Code/Build Curriculum", "school": "Millburn High School", "image": "images/teamimages/neil.png" },
+          { "name": "Naman Mehta", "role": "Web Developer and Code Curriculum", "school": "Millburn High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Carissa Gulati", "role": "Code Curriculum", "school": "Millburn High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Guneet Kaur Kapur", "role": "Code Curriculum", "school": "Millburn High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "James Hou", "role": "Code Curriculum Designer", "school": "Newark Academy", "image": "images/teamimages/james.jpeg" },
+          { "name": "Leo Hwang", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "images/teamimages/leo.jpeg" },
+          { "name": "Rishi Saraf", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "images/teamimages/rishi.png" },
+          { "name": "Diya Jain", "role": "Code Curriculum Designer", "school": "Millburn High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Krisha Shankarnarayan", "role": "Code Curriculum Designer", "school": "Kent Place School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Tessa Chow", "role": "Code Curriculum Designer", "school": "Kent Place School", "image": "images/teamimages/imgnotavailable.jpg" }
         ]
       },
       {
         "name": "Build Team",
         "people": [
-          { "name": "Grace Yu", "role": "Build Instructor", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/grace.jpeg" },
-          { "name": "Lucas Goldman", "role": "Build Instructor", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/lucas.jpeg" },
-          { "name": "Yash Juneja", "role": "Build Curriculum Designer", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/yash.jpeg" },
-          { "name": "Kimaya Sutone", "role": "Curriculum", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/kimaya.jpeg" },
-          { "name": "Abhimaan Chandan", "role": "Curriculum", "school": "Livingston High School", "image": "https://www.rise-robotics.org/images/team-images/abhimaan.jpeg" }
+          { "name": "Grace Yu", "role": "Build Instructor", "school": "Millburn High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Lucas Goldman", "role": "Build Instructor", "school": "Millburn High School", "image": "images/teamimages/lucas.jpeg" },
+          { "name": "Yash Juneja", "role": "Build Curriculum Designer", "school": "Livingston High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Kimaya Sutone", "role": "Curriculum", "school": "Livingston High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Abhimaan Chandan", "role": "Curriculum", "school": "Livingston High School", "image": "images/teamimages/imgnotavailable.jpg" }
         ]
       },
       {
         "name": "Fundraising & Outreach",
         "people": [
-          { "name": "Derek Zhang", "role": "Fundraising", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/derek.jpeg" },
-          { "name": "Atharv Karamcheti", "role": "Fundraising", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/atharv.jpeg" },
-          { "name": "Sujeev Singh Kapur", "role": "Outreach", "school": "Millburn High School", "image": "https://www.rise-robotics.org/images/team-images/sujeev.jpeg" }
+          { "name": "Derek Zhang", "role": "Fundraising", "school": "Millburn High School", "image": "images/teamimages/derek.jpeg" },
+          { "name": "Atharv Karamcheti", "role": "Fundraising", "school": "Millburn High School", "image": "images/teamimages/imgnotavailable.jpg" },
+          { "name": "Sujeev Singh Kapur", "role": "Outreach", "school": "Millburn High School", "image": "images/teamimages/sujeev.png" }
         ]
       }
     ]

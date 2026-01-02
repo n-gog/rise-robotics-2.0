@@ -38,11 +38,80 @@ function iconSvg(name) {
   return `<svg ${common}><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" stroke="currentColor" stroke-width="1.8"/></svg>`;
 }
 
+
 function setActiveNav() {
   const path = (location.pathname.split("/").pop() || "index.html").toLowerCase();
   document.querySelectorAll(".nav a, .footer-links a").forEach((a) => {
     const href = (a.getAttribute("href") || "").toLowerCase();
     if (href === path) a.classList.add("active");
+  });
+}
+
+function wrapImgWithLink(img, href) {
+  if (!img || !href) return;
+
+  // If already inside a link, just update it.
+  const existing = img.closest("a");
+  if (existing) {
+    existing.href = href;
+    existing.target = "_blank";
+    existing.rel = "noopener";
+    return;
+  }
+
+  const a = document.createElement("a");
+  a.href = href;
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.style.display = "inline-flex";
+  a.style.alignItems = "center";
+
+  const parent = img.parentNode;
+  if (!parent) return;
+  parent.insertBefore(a, img);
+  a.appendChild(img);
+}
+
+function linkPartnerLogos(site) {
+  // Only link these logos on the About page image stack.
+  const page = document.body.getAttribute("data-page");
+  if (page !== "about") return;
+
+  const aboutMount = document.getElementById("page-about");
+  if (!aboutMount) return;
+
+  // Defaults in case content.json does not include explicit partner URLs.
+  const graceHref =
+    site?.partners?.grace?.href ||
+    site?.partnerLinks?.grace ||
+    "https://graceinitiative.org/";
+
+  const teeemHref =
+    site?.partners?.teeem?.href ||
+    site?.partnerLinks?.teeem ||
+    "https://www.teeem.org/";
+
+  // Scope to the About page right-side images only.
+  const imgs = Array.from(aboutMount.querySelectorAll(".img-card img"));
+  imgs.forEach((img) => {
+    const src = String(img.getAttribute("src") || "").toLowerCase();
+    const alt = String(img.getAttribute("alt") || "").toLowerCase();
+
+    // GRACE
+    if (src.includes("grace") || alt.includes("grace")) {
+      wrapImgWithLink(img, graceHref);
+      return;
+    }
+
+    // TEEEM (catch common spellings)
+    if (
+      src.includes("teeem") ||
+      alt.includes("teeem") ||
+      src.includes("teem") ||
+      alt.includes("teem")
+    ) {
+      wrapImgWithLink(img, teeemHref);
+    }
   });
 }
 
@@ -832,6 +901,10 @@ async function init() {
   if (page === "learn") initLearn(site);
   if (page === "support") initSupport(site);
   if (page === "contact") initContact(site);
+
+  // Make partner logos clickable once the page content is mounted.
+  // Use a microtask to ensure DOM is updated.
+  Promise.resolve().then(() => linkPartnerLogos(site));
 }
 
 document.addEventListener("DOMContentLoaded", () => {

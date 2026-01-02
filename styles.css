@@ -344,7 +344,7 @@ code{background:rgba(0,0,0,.04); padding:2px 6px; border-radius:10px}
 .team-section h2{margin:18px 0 10px; font-size:22px}
 .people{
   display:grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
+  grid-template-columns: repeat(5, minmax(0,1fr));
   gap:14px;
 }
 .person{
@@ -354,7 +354,7 @@ code{background:rgba(0,0,0,.04); padding:2px 6px; border-radius:10px}
   box-shadow: var(--shadow2);
   overflow:hidden;
 }
-.person .photo{aspect-ratio: 4/3; background:rgba(255,255,255,.55)}
+.person .photo{aspect-ratio: 3/4; background:rgba(255,255,255,.55)}
 .person img{width:100%; height:100%; object-fit:cover; display:block}
 .person .info{padding:14px}
 .person .name{font-weight:850}
