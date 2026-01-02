@@ -856,13 +856,13 @@ function initContact(site) {
           </div>
 
           <button class="btn gold" type="submit">Send</button>
-          <div class="note">After deploying, submit once so Netlify registers the form.</div>
+          <div class="note">We will reach out to you soon.</div>
         </form>
       </section>
 
       <aside class="card info-card">
         <h2 style="margin:0 0 10px">Other ways</h2>
-        <p style="margin:0; color:var(--muted); line-height:1.8">Add your public email/socials in <code>content.json</code> when ready.</p>
+        <p style="margin:0; color:var(--muted); line-height:1.8">Here are other methods to get in touch with us.</p>
         <div class="kv">
           ${(c.otherWays || [])
             .map(
