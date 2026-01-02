@@ -227,8 +227,8 @@
     "title": "Contact us",
     "subtitle": "Reach out for partnerships, mentorship, donations, or questions.",
     "otherWays": [
-      { "label": "Phone", "value": "(add later)" },
-      { "label": "Email", "value": "(add later)" },
+      { "label": "Phone", "value": "862-409-8803" },
+      { "label": "Email", "value": "rusheelmishra5@gmail.com" },
       { "label": "Instagram", "value": "@rise.robotics" }
     ],
     "donateCta": { "label": "Donate", "href": "support.html", "variant": "gold" }
